@@ -25,4 +25,8 @@ class Question < ApplicationRecord
     through: :answer_choices,
     source: :responses 
 
+    def results
+ 
+    end
+
 end
